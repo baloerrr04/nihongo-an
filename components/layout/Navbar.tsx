@@ -46,6 +46,11 @@ export default function Navbar({ initialUser, initialStreak }: { initialUser: an
 
           {user && (
             <>
+              <div className="hidden md:flex flex-col items-end mr-2 text-right">
+                <span className="text-[10px] font-black opacity-60 uppercase leading-none">Logged in as</span>
+                <span className="text-sm font-black truncate max-w-[150px]">{user.email}</span>
+              </div>
+
               <div className="hidden sm:flex items-center gap-2 px-3 py-1 bg-[#ff9f43] border-2 border-neo-border shadow-[2px_2px_0_0_#111111] rounded-[var(--radius)] font-black text-sm">
                 <span>🔥</span> {streak} {t('nav.streak')}
               </div>
