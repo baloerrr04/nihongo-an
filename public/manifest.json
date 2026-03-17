@@ -1,0 +1,21 @@
+{
+  "name": "Nihongo App",
+  "short_name": "Nihongo",
+  "description": "Japanese Learning App with Neobrutalism UI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf6e3",
+  "theme_color": "#ff6b6b",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

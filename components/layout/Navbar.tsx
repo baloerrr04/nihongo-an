@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import { useTranslation } from '@/context/LanguageContext'
 import { useEffect, useState } from 'react'
+import InstallButton from './InstallButton'
 
 export default function Navbar({ initialUser, initialStreak }: { initialUser: any, initialStreak: number }) {
   const { lang, setLang, t } = useTranslation()
@@ -34,6 +35,7 @@ export default function Navbar({ initialUser, initialStreak }: { initialUser: an
         </Link>
 
         <div className="flex items-center gap-2 sm:gap-4">
+          <InstallButton />
           {/* Language Switcher */}
           <button 
             onClick={toggleLanguage}

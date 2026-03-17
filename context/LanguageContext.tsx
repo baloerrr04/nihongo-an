@@ -51,6 +51,7 @@ const translations: Translations = {
     'quiz.whatIsReading': 'What is the reading?',
     'quiz.correctPoints': 'Correct! +10 Points',
     'quiz.incorrect': 'Incorrect. The answer is',
+    'pwa.install': 'Install App',
   },
   jp: {
     'nav.home': 'ホーム',
@@ -92,6 +93,7 @@ const translations: Translations = {
     'quiz.whatIsReading': '読み方は何ですか？',
     'quiz.correctPoints': '正解！ +10点',
     'quiz.incorrect': '不正解。正解は',
+    'pwa.install': 'アプリをインストール',
   }
 }
 
