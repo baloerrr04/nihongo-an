@@ -52,6 +52,8 @@ const translations: Translations = {
     'quiz.correctPoints': 'Correct! +10 Points',
     'quiz.incorrect': 'Incorrect. The answer is',
     'pwa.install': 'Install App',
+    'pwa.iosInstructions': 'To install: Tap the "Share" icon and then "Add to Home Screen" 📲',
+    'pwa.alreadyInstalled': 'App is ready or already installed! Check your app drawer. 🏠',
   },
   jp: {
     'nav.home': 'ホーム',
@@ -94,6 +96,8 @@ const translations: Translations = {
     'quiz.correctPoints': '正解！ +10点',
     'quiz.incorrect': '不正解。正解は',
     'pwa.install': 'アプリをインストール',
+    'pwa.iosInstructions': 'インストール方法：共有アイコンをタップし、「ホーム画面に追加」を選択してください 📲',
+    'pwa.alreadyInstalled': 'アプリは準備完了か、既にインストールされています！ホーム画面を確認してください。 🏠',
   }
 }
 

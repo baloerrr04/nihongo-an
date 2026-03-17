@@ -15,9 +15,10 @@ export default function Navbar({ initialUser, initialStreak }: { initialUser: an
   const [streak, setStreak] = useState(initialStreak)
 
   const handleLogout = async () => {
-    await supabase.auth.signOut()
-    router.refresh()
+    // Call the server-side signout route to clear cookies properly
+    await fetch('/auth/signout', { method: 'POST' })
     router.push('/login')
+    router.refresh()
   }
 
   const toggleLanguage = () => {
